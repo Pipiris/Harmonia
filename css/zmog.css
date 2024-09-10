@@ -1,0 +1,13 @@
+.zmog_button{
+    position: relative;
+    left: 540px;
+    top: 200px;
+    background-color: transparent;
+    border: none;
+}
+.bubble{
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+    display: none;
+}
