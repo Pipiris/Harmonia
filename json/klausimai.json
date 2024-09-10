@@ -1,9 +1,3 @@
 {
-    "Klausimai": [
-        "Klausimas1",
-        "Klausimas2",
-        "Klausimas3",
-        "Klausimas4",
-        "Klausimas5"
-    ]
+    "klausimai": [ "Question 2", "Question 3", "Question 4", "Question 5"]
 }
