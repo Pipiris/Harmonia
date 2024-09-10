@@ -1,9 +1,9 @@
-/* Pagrindinis css dokumentas kuriame cookinti galima stiliukus */
+/* trackerio cssasas */
 body {
     background-color: #5595d4;
 }
-.mood_button {
-    background-color: #04aa17; /* Green */
+.back_button {
+    background-color: #aa0404; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
