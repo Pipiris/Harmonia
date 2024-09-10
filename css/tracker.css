@@ -1,9 +1,12 @@
 /* trackerio cssasas */
+
 body {
     background-color: #5595d4;
 }
+
 .back_button {
-    background-color: #aa0404; /* Green */
+    background-color: #aa0404;
+    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -11,4 +14,69 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.road-container {
+    position: relative;
+    height: 10000px;
+    /* Much longer scroll area */
+    display: flex;
+    justify-content: center;
+}
+
+.road {
+    width: 2px;
+    background-color: #000;
+    height: 100%;
+}
+
+.character {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    z-index: 10;
+}
+
+.thought-input-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+}
+
+#thoughts-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#thoughtInputField {
+    display: none;
+}
+
+.thought {
+    position: absolute;
+    left: calc(50% + 20px);
+    transform: translateX(-50%);
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.back_button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 30;
+}

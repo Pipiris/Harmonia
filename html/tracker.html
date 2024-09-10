@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="lt">
 
 <head>
@@ -6,17 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Minčių miestelis</title>
     <script src="../js/tracker.js" defer></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/tracker.css">
 </head>
 
 <body>
     <button class="back_button" id="back">Atgal</button>
+
+    <div class="road-container">
+        <div class="road"></div>
+        <div id="thoughts-container"></div>
+    </div>
+
+    <div id="character" class="character">
+        😊
+    </div>
+
+    <div class="thought-input-container">
+        <button id="addThoughtBtn" class="btn btn-primary">PRIDEK MINTI</button>
+        <div id="thoughtInputField">
+            <textarea id="thoughtText" rows="3" cols="30" class="form-control mb-2" placeholder="PARAŠYK MINTIS"></textarea>
+            <button id="publishBtn" class="btn btn-success">Publish</button>
+        </div>
+    </div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
